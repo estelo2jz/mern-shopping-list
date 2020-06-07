@@ -11,7 +11,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // DB Config
-const db = require('./config/.env').ATLAS_URI;
+const db = require('/config/.env').ATLAS_URI;
 
 // Connect to Mongo
 mongoose
